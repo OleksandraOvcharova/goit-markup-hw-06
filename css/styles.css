@@ -1064,6 +1064,9 @@ input[type="checkbox"]:checked
 .mobile-menu-link:active {
   color: #404bbf;
 }
+.mobile-menu-link.active {
+  color: #404bbf;
+}
 .mobile-menu-contacts {
   margin-bottom: 48px;
 }
@@ -1083,6 +1086,9 @@ input[type="checkbox"]:checked
   color: #434455;
 }
 .mobile-menu-contacts-link:active {
+  color: #4d5ae5;
+}
+.mobile-menu-contacts-link.active {
   color: #4d5ae5;
 }
 .mobile-menu-socials-icon {
