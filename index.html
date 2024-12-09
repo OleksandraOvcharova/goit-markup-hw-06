@@ -28,11 +28,6 @@
           <a class="logo header-logo" href="./index.html"
             >Web<span class="logo-part">Studio</span></a
           >
-          <button type="button" class="mobile-menu-button">
-            <svg class="header-icon" width="17" height="15">
-              <use href="./images/icons.svg#icon-person1"></use>
-            </svg>
-          </button>
           <ul class="nav-list">
             <li class="nav-item">
               <a class="nav-link active" href="./index.html">Studio</a>
@@ -45,6 +40,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-button">
+          <svg class="header-icon" width="17" height="15">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -818,29 +818,41 @@
     </div>
 
     <!-- Mobile Menu-->
-    <div class="mobile-menu">
+    <div class="mobile-menu is-open">
       <button class="modal-button" type="button">
         <svg class="modal-button-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-cross"></use>
         </svg>
       </button>
-      <ul class="mobile-menu-list">
-        <li><a href=""></a>Studio</li>
-        <li><a href=""></a>Portfolio</li>
-        <li><a href=""></a>Contacts</li>
-      </ul>
-      <ul class="mobile-menu-contacts-list">
-        <li class="mobile-menu-contacts-item">
-          <a class="mobile-menu-contacts-link" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-        <li class="mobile-menu-contacts-item">
-          <a class="mobile-menu-contacts-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-      </ul>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Studio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Portfolio</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <address class="mobile-menu-contacts">
+        <ul class="mobile-menu-contacts-list">
+          <li class="mobile-menu-contacts-item">
+            <a class="mobile-menu-contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+          <li class="mobile-menu-contacts-item">
+            <a
+              class="mobile-menu-contacts-link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
       <div class="mobile-menu-socials-container">
         <ul class="mobile-menu-socials-icon">
           <li class="mobile-menu-socials-icon-item">
